@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permissioning the City Demo</title>
+
+  <link rel="stylesheet" href="../Style/style.css">
+  <link rel="stylesheet" href="../Style/case.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../yunashin.html">Yuna Shin</a>
+      <nav class="nav">
+        <a href="https://www.instagram.com/yyunashinyunaa/" target="_blank" rel="noopener">Instagram</a>
+        <a href="../YunaShin_CV.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="cs-hero container">
+      <div class="cs-hero-left">
+        <h1 class="cs-title">Permissioning the City</h1>
+        <p class="cs-sub">UI/UX Design<br>Oct 2024 - Jan 2025<br>Freelance: Grafik PLF / Dark Matter Labs
+          <br>1 Identity Designer & 2 UI/UX Designer
+        </p>
+      </div>
+      <div class="cs-hero-right">
+        <img src="../Images/PtC-hero.jpg" alt="PtC hero">
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="cs-section container">
+      <div class="cs-split">
+        <h2>Overview</h2>
+        <div class="cs-right">
+          <p>
+          Permissioning the City is a community-led governance and permissions system which interrogates how we use, manage and share urban space. It takes as a starting point the numerous vacant and underutilised spaces that opened up due to the pandemic and larger demographic and industrial restructuring, with the intention to aggregate and unlock them for civic uses.
+          (explaination from <span><a href=https://darkmatterlabs.org/initiatives/re-permissioning-the-city target="_blank" rel="noopener">Dark Matter Labs official website</a></span>)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Background & Goal -->
+    <section class="cs-section container">
+      <div class="cs-split">
+        <h2>Background & Goal</h2>
+        <div class="cs-right">
+          <p>
+            This demo was developed under a contract between Dark Matter Labs and Grafik PLF, the design agency commissioned for the project. I participated as a freelance designer within this framework.
+            <br><br>From October, we began building a user testing web prototype with core features implemented at a basic level, alongside Figma prototyping. In late November, a user testing workshop was conducted in Daegu, South Korea. After the workshop, the design system was consolidated and documented through January of the following year.
+          </p>
+      </div>
+    </section>
+
+
+    <!-- Research & Solution -->
+    <section class="cs-section container">
+      <div class="cs-split">
+        <h2>Research &amp; Solution</h2>
+        <div class="cs-right">
+          <p>
+            According to research conducted by Dark Matter Labs prior to the design commission, several pain points were identified in existing space rental platforms.
+            From the perspective of space providers, users rarely read notices or regulations thoroughly. There is often no direct verification process to confirm whether the space has been properly restored before checkout. When onboarding a space, providers are uncertain about which rules or clauses should be included for safety and accountability.
+            <br><br>From the perspective of space users, some regulations appear arbitrary or unclear in purpose during actual use. Rules are unilaterally defined by providers, and platforms typically lack a structured channel for negotiation or adjustment.
+            <br><br>The proposed solutions addressed these issues as follows.
+            <br>First, the platform provides regulation templates categorized by the intended purpose of the space. To discourage users from skipping through regulations, each item requires confirmation through a sliding interaction rather than a simple click, introducing deliberate friction into the reading process.
+            <br><br>Second, to complete a booking, users must review the provider cleanup checklist and upload photographic evidence confirming that the space has been restored according to the requirements. Finally, after reviewing the regulations, users can propose modifications to the responsible governance group both before and after using the space. If a proposal is approved, the space usage rules are formally updated within the system.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Design -->
+    <section class="cs-section container">
+      <div class="cs-split">
+        <h2>Design</h2>
+        <div class="cs-right">
+          <p>Parts of this UI were implemented as a functional demo version by the team’s programmers, while the remaining sections were presented through Figma prototyping during the workshop.
+            <br><br>As the workshop was conducted in South Korea, the Korean language version was used for testing. The portfolio includes the collaboratively developed English version.
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery (also stacked big) -->
+    <section class="cs-image-full container">
+        <img src="../Images/PtC-02.png" alt="">
+    </section>
+
+
+    <!-- Pager -->
+    <section class="cs-pager container">
+      <a class="pager-link" href="./corner cast.html">← Previous</a>
+      <a class="pager-link" href="./Ripple.html">Next →</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer-container">
+      <span class="muted">Ⓒ<span id="y"></span> Yuna Shin</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
